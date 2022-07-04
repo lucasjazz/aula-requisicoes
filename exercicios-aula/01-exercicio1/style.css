@@ -1,0 +1,36 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+
+    background-color: lightgrey;
+}
+
+.criptomoeda {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: grey;
+
+    border-radius: 10px;
+
+    color: yellow;
+
+    width: 200px;
+    height: 100px;
+
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+label {
+    margin-bottom: 5px;
+}
